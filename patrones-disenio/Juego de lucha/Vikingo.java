@@ -1,4 +1,5 @@
 
+
 public class Vikingo extends Personaje {
     public Vikingo(String nombre) {
         super(nombre, "Hacha de Guerra");

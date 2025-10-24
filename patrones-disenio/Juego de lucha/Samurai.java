@@ -1,4 +1,5 @@
 
+
 public class Samurai extends Personaje {
     public Samurai(String nombre) {
         super(nombre, "Katana");

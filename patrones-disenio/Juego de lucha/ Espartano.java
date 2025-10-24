@@ -1,26 +1,24 @@
 
-public class Romano extends Personaje {
-    public Romano(String nombre) {
-        super(nombre, "Gladius");
+
+public class Espartano extends Personaje {
+    public Espartano(String nombre) {
+        super(nombre, "Lanza Espartana");
     }
 
     @Override
     public String getFraseInicial() {
-        return "¡AVE CÉSAR! ¡La legión romana triunfará!";
+        return "¡POR ESPARTA! ¡Hoy beberé hidromiel del cráneo de mi enemigo!";
     }
 
     @Override
     public String getFraseFinal() {
-        return "¡SIC SEMPER TYRANNIS! ¡Roma victoriosa!";
+        return "¡Esto... ES... ESPARTA!";
     }
 
     @Override
     public void atacar(Personaje oponente) {
         int dano = (int) (Math.random() * (MAX_DANO - MIN_DANO + 1)) + MIN_DANO;
-        if (Math.random() < 0.2) {
-            System.out.println("¡Ataque rápido de la legión! " + this.nombre + " golpea con agilidad con su " + tipoArma);
-            dano += 3;
-        }
+        System.out.println(this.nombre + " blande su " + tipoArma + " con ferocidad!");
         oponente.recibirDano(dano);
         System.out.println(this.nombre + " ataca a " + oponente.getNombre() + " causando " + dano + " puntos de daño.");
     }
