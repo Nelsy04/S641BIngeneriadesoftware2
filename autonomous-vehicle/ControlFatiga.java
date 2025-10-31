@@ -1,13 +1,6 @@
 /**
  * MÓDULO DE CONTROL DE FATIGA - Decorador Concreto
- * 
- * Monitorea el estado del conductor para detectar signos de fatiga:
- * - Análisis de movimientos oculares
- * - Detección de cabeceos
- * - Monitoreo de patrones de conducción
- * - Alertas sonoras y vibratorias
- * 
- * Seguridad: Previene accidentes por somnolencia
+ 
  */
 public class ControlFatiga extends ModuloDecorador {
     

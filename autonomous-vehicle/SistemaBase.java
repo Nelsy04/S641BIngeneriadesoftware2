@@ -1,10 +1,5 @@
 /**
  * SISTEMA BASE - Componente Concreto
- * 
- * Representa el sistema mínimo de conducción autónoma sin módulos adicionales.
- * Este es el objeto que será decorado con funcionalidades adicionales.
- * 
- * Principio: Single Responsibility - Solo maneja la funcionalidad básica
  */
 public class SistemaBase implements SistemaVehicular {
     

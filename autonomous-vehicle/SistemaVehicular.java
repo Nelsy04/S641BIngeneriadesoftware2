@@ -1,10 +1,5 @@
 /**
  * INTERFAZ SISTEMA VEHICULAR
- * 
- * Define el contrato que todos los componentes del sistema de vehículos autónomos deben seguir.
- * Este es el componente principal del patrón Decorador.
- * 
- * Principio: Interface Segregation - Define operaciones específicas y cohesivas
  */
 public interface SistemaVehicular {
     

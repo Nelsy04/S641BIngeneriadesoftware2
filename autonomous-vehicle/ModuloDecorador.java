@@ -1,10 +1,5 @@
 /**
  * DECORADOR ABSTRACTO - Clase Base para todos los módulos
- * 
- * Proporciona la estructura base para todos los decoradores concretos.
- * Implementa el comportamiento por defecto delegando al componente decorado.
- * 
- * Principio: Open/Closed - Extensible sin modificar código existente
  */
 public abstract class ModuloDecorador implements SistemaVehicular {
     

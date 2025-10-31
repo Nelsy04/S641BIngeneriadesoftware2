@@ -1,12 +1,5 @@
 /**
  * MÓDULO DE ESTACIONAMIENTO AUTOMÁTICO - Decorador Concreto
- * 
- * Proporciona capacidad de estacionamiento autónomo en diferentes escenarios:
- * - Estacionamiento en paralelo
- * - Estacionamiento en batería
- * - Estacionamiento perpendicular
- * 
- * Tecnología: Combinación de ultrasonidos, cámaras 360° y machine learning
  */
 public class EstacionamientoAutomatico extends ModuloDecorador {
     

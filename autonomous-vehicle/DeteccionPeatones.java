@@ -1,13 +1,5 @@
 /**
- * MÓDULO DE DETECCIÓN DE PEATONES - Decorador Concreto
- * 
- * Agrega capacidad de detectar peatones mediante inteligencia artificial
- * y cámaras de visión computerizada.
- * 
- * Características:
- * - Usa redes neuronales para identificación de peatones
- * - Funciona en tiempo real a alta velocidad
- * - Integración con sistema de frenado de emergencia
+ *
  */
 public class DeteccionPeatones extends ModuloDecorador {
     

@@ -1,13 +1,6 @@
 /**
  * MÓDULO DE CONTROL DE CLIMA AUTOMÁTICO - Decorador Concreto
- * 
- * Sistema inteligente de control de clima que:
- * - Mantiene temperatura óptima automáticamente
- * - Ajusta según condiciones externas
- * - Aprende preferencias del conductor
- * - Optimiza consumo energético
- * 
- * Confort: Mejora la experiencia de conducción automática
+*
  */
 public class ControlClima extends ModuloDecorador {
     
